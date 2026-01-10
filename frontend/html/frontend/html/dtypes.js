@@ -15,9 +15,9 @@ y=87;
 const c=89;
 c=34;*/
 
-x=14;
-var x;
+/*x=14;
+var x;   
 y=90;
 let y;
 c=86;
-const c;
+const c;*/

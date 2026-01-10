@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var day;
+        day=Number(prompt("ENTER THE DAY NUMBER:"));
+        switch(true)
+        {
+            case (day>=1 && day<=5):
+                document.write("WEEKDAYS <br><br>");
+                break;
+            case (day==6 || day==7):
+                document.write("WEEKEND <br><br>");
+                break;
+            default:
+                document.write("NOT A DAY");
+        }
+    </script>
+</body>
+</html>
